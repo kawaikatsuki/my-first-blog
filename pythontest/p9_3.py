@@ -7,7 +7,7 @@ fig = Figure()
 # argument.
 FigureCanvas(fig)
 ax = fig.add_subplot(111)
-ax.plot([1, 2, 3])
+ax.plot([1, 2, 5])
 ax.set_title('hi mom')
 ax.grid(True)
 ax.set_xlabel('time')
